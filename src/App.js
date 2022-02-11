@@ -1,25 +1,20 @@
 import logo from './5119872_book_dictionary_literature_icon.png';
 import './App.css';
+import Dictionary from './Dictionary';
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Coming Soon...
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          My Dictionary App!
-        </a>
+      <div className="container">
+        <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
       </header>
+      <main>
+        <Dictionary />
+      </main>
+    </div>
+    <footer className="text-center"> Coded by Larissa</footer>
     </div>
   );
 }
 
-export default App;
