@@ -1,7 +1,14 @@
 .Photos img {
-    border-radius: 5px;
+    border-radius: 9px;
     margin-bottom: 20px;
     margin-left: 5px;
-    display:flexbox;
-    
   }
+
+.Photos  {
+    background: rgba(224, 255, 205, 0.5);
+    padding: 30px;
+    border-radius: 7px;
+    box-shadow: 0 10px 10px rgb(0 0 0 / 10%);
+    margin: 20px 0;
+  }
+
